@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Quiz, Ranking } from '../models';
 
-const baseUrl = process.env.BACK_LINK;
+const baseUrl = "http://localhost:5000";
 
 export const getQuizzes = async () => {
   try {
